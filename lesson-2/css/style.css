@@ -1,0 +1,30 @@
+@media only screen and (max-width: 300px) {
+    .grid-container {
+        max-width: 767px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 37.5em) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-container div:nth-child(2) {
+        display: block;
+    }
+    .grid-container div:nth-child(3) {
+        grid-column: span 2;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid-container div:nth-child(3) {
+        grid-column: span 1;
+    }
+}
