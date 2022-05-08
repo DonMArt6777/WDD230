@@ -119,6 +119,10 @@ h3 {
     text-align: center;
 }
 
+.current-time {
+    color: #EDF5E1;
+}
+
 .persona-1 {
     display: flex;
     padding: 20px;
