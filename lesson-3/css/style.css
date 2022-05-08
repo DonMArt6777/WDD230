@@ -1,0 +1,120 @@
+    @media only screen and (min-width: 300px) {
+        body {
+            font-size: small;
+        }
+        .nav-bar {
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (min-width:32.7em) {
+        body {
+            font-size: medium;
+        }
+        .nav-bar {
+            display: block;
+            background: #05386B;
+            color: #EDF5E1;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .nav-bar ul {
+            display: block;
+            align-content: center;
+        }
+        .nav-bar ul li {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            list-style: none;
+        }
+        /* .site-name {
+            padding: 5px;
+            font-size: small;
+            text-align: center;
+            border: 1px solid #333;
+            background: #05386B;
+            color: #EDF5E1;
+            border-radius: 7px;
+            box-shadow: 7px 7px 7px #444;
+        } */
+        .purpose {
+            text-align: center;
+            font-size: small;
+        }
+        .domain {
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+        }
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    @media only screen and (min-width: 60em) {
+        body {
+            font-size: 1rem;
+        }
+        .nav-bar {
+            display: flex;
+            background: #05386B;
+            color: #EDF5E1;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .nav-bar ul {
+            display: flex;
+            align-content: center;
+        }
+        .nav-bar ul li {
+            display: flex;
+            padding: 10px;
+            list-style: none;
+        }
+        .site-name {
+            padding: 10px;
+            font-size: 1rem;
+            text-align: center;
+            border: 1px solid #333;
+            background: #05386B;
+            color: #EDF5E1;
+            border-radius: 7px;
+            box-shadow: 7px 7px 7px #444;
+        }
+        .purpose {
+            font-size: 1rem;
+            text-align: left;
+        }
+        .domain {
+            text-align: left;
+        }
+        .logo {
+            text-align: left;
+        }
+        .logo img {
+            width: 200px;
+            height: 200px;
+        }
+        .audience h1 {
+            padding: 10px;
+            font-size: 1rem;
+            text-align: center;
+            border: 1px solid #333;
+            background: #05386B;
+            color: #EDF5E1;
+            border-radius: 7px;
+            box-shadow: 7px 7px 7px #444;
+        }
+        .audience p {
+            line-height: 1em;
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
