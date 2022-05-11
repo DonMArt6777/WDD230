@@ -101,6 +101,10 @@ h3 {
 
 /* Audience */
 
+.mp-1 {
+    display: block;
+}
+
 .audience h1 {
     padding: 10px;
     text-align: center;
@@ -136,9 +140,10 @@ h3 {
 }
 
 .persona-1 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 360px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .persona-2 {
@@ -154,9 +159,10 @@ h3 {
 }
 
 .persona-2 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 360px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .scenario {
@@ -164,11 +170,12 @@ h3 {
     list-style: none;
     margin: 10px;
     line-height: 1.7em;
-    text-align: center;
 }
 
 .scenario ul li {
     list-style: none;
+    padding: 5px;
+    margin: auto;
 }
 
 .heading-1 {
