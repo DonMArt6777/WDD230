@@ -1,0 +1,12 @@
+@media(min-width: 32.5em) {
+    .card-board {
+        display: flex;
+        background-color: rgb(11, 169, 232);
+        border: 1px rgb(98, 29, 29);
+        box-shadow: 0 0 10px 10px rgb(68, 168, 148);
+        border-radius: 10px;
+    }
+    * {
+        font-size: small;
+    }
+}

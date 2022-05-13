@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.contaniner {
+    display: flex;
+    max-width: 1;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+}
+
+p {
+    padding-right: 5px;
+}
+
+img {
+    width: 200px;
+    height: 260px;
+    box-shadow: 0 0 10px rgb(69, 64, 64);
+}
+
+.main-container {
+    display: block;
+    padding: 20px;
+}
+
+.card-board {
+    display: flex;
+    background-color: rgb(59, 140, 172);
+    border: 1px #333;
+    box-shadow: 0 0 10px 10px lightgrey;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.card-board h1 {
+    display: inline-block;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+.lesson {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.wdd {
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.border {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    border-bottom: 1px solid #333;
+}
+
+.p1 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.lesson ul {
+    display: inline;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+    align-content: flex-end;
+}
+
+.main-footer {
+    display: flex;
+    margin: auto;
+}
+
+.main-footer p {
+    display: inline-block;
+    margin: auto;
+    color: rgb(152, 202, 66);
+    justify-content: space-between;
+}
+
+#current-date {
+    color: rgb(152, 202, 66);
+}
