@@ -1,0 +1,185 @@
+@media only screen and (max-width: 700px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #EDF5E1;
+    }
+    header {
+        background: #05386B;
+    }
+    a {
+        text-decoration: none;
+        list-style: none;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    nav {
+        display: block;
+    }
+    .logo img {
+        display: inline;
+        text-align: center;
+        padding-top: 10px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    header button {
+        display: block;
+        margin: .2rem .2vw;
+        margin-top: 0;
+        background: transparent;
+        border: none;
+        font-size: 3rem;
+        color: #EDF5E1;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        text-align: center;
+        color: #EDF5E1;
+        border: 1px solid rgba(0, 0, 0, .5)
+    }
+    nav ul li a:hover {
+        background: rgb(54, 103, 143);
+    }
+    .current-page {
+        background-color: rgb(54, 103, 143);
+        ;
+        color: #EDF5E1;
+    }
+    .black {
+        color: black
+    }
+    .red {
+        color: rgb(179, 30, 30);
+    }
+    .icon-1 {
+        display: none;
+        background: #EDF5E1;
+        border: 1px solid #333;
+        padding: 10px;
+        justify-content: end;
+        border-radius: 5px;
+    }
+    .icon-1 a i {
+        font-size: 1.5rem;
+        color: #05386B;
+        padding: 5px;
+    }
+    .icon-2 {
+        display: none;
+        background: rgb(30, 109, 138);
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .icon-2 a i {
+        font-size: 1.5rem;
+        color: #fff;
+        padding: 5px;
+    }
+    footer {
+        display: flex;
+        background: #05386B;
+        padding: 20px;
+    }
+    .main-footer {
+        display: flex;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-footer p {
+        display: block;
+        text-align: left;
+        margin-top: 60px;
+    }
+    .company-name {
+        display: inline;
+        font-size: 20px;
+        padding: 0;
+    }
+    .current-time {
+        display: block;
+        text-align: center;
+        padding: 7px;
+    }
+    .logo {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar ul.open {
+        display: block;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 5px;
+        color: #333;
+        padding: 10px;
+    }
+    .grid-1 {
+        display: grid;
+        border: 1px solid #333;
+        grid-column-start: 1;
+        grid-column-end: 0.5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .grid-2 {
+        border: 1px solid #333;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-template-rows: max-content;
+    }
+    .grid-3 {
+        display: grid;
+        border: 1px solid #333;
+        padding: 10px;
+    }
+    .grid-3 ul li {
+        border: 1px solid #333;
+        padding: 5px;
+        grid-gap: 5px;
+        list-style: none;
+    }
+    .grid-4 {
+        display: grid;
+        border: 1px solid #333;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-template-rows: 2/4;
+    }
+    .grid-5 {
+        display: grid;
+        border: 1px solid #333;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 8;
+    }
+    .grid-6 {
+        display: grid;
+        border: 1px solid #333;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+}
