@@ -10,6 +10,7 @@
     }
     header {
         background: #05386B;
+        padding: 5px;
     }
     a {
         text-decoration: none;
@@ -64,20 +65,20 @@
         color: rgb(179, 30, 30);
     }
     .icon-1 {
-        display: none;
+        display: inline-block;
         background: #EDF5E1;
         border: 1px solid #333;
         padding: 10px;
-        justify-content: end;
         border-radius: 5px;
     }
     .icon-1 a i {
         font-size: 1.5rem;
+        text-align: center;
         color: #05386B;
         padding: 5px;
     }
     .icon-2 {
-        display: none;
+        display: inline-block;
         background: rgb(30, 109, 138);
         border: 1px solid #333;
         padding: 10px;
@@ -88,23 +89,36 @@
         color: #fff;
         padding: 5px;
     }
+    #socialnav .icon-1:hover {
+        color: #EDF5E1;
+        background: rgb(179, 30, 30);
+    }
+    #socialnav .icon-2:hover {
+        color: #EDF5E1;
+        ;
+        background: rgb(0, 0, 0.2);
+        ;
+    }
     footer {
-        display: flex;
+        display: block;
         background: #05386B;
-        padding: 20px;
+        text-align: center;
     }
     .main-footer {
-        display: flex;
+        display: block;
         text-align: center;
-        padding: 10px;
+        margin: 0;
+        padding: 5px;
     }
     .main-footer p {
         display: block;
-        text-align: left;
-        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
     }
     .company-name {
-        display: inline;
+        display: block;
+        text-align: center;
         font-size: 20px;
         padding: 0;
     }
@@ -126,60 +140,61 @@
     }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        justify-content: center;
         color: #333;
+        justify-items: stretch;
         padding: 10px;
     }
     .grid-1 {
-        display: grid;
         border: 1px solid #333;
-        grid-column-start: 1;
-        grid-column-end: 0.5;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        grid-column: 1/5;
+        grid-row: 40/60
     }
     .grid-2 {
         border: 1px solid #333;
-        grid-column-start: 2;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        grid-template-rows: max-content;
+        grid-column: 1/5;
+        grid-row: 1/40
+    }
+    .grid-4 {
+        border: 1px solid #333;
+        grid-column: 1/5;
+        grid-row: 60/80
+    }
+    .grid-5 {
+        display: none;
+    }
+    .grid-6 {
+        border: 1px solid #333;
+        grid-column: 1/5;
+        grid-row: 80/100;
     }
     .grid-3 {
         display: grid;
         border: 1px solid #333;
         padding: 10px;
+        grid-column: 1/5;
+        grid-row: 100/140;
     }
-    .grid-3 ul li {
+    .grid-3>div:nth-child(1) {
         border: 1px solid #333;
         padding: 5px;
-        grid-gap: 5px;
-        list-style: none;
+        grid-auto-rows: 200px;
+        grid-row: 1/2;
     }
-    .grid-4 {
-        display: grid;
+    .grid-3>div:nth-child(2) {
         border: 1px solid #333;
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .grid-3>div:nth-child(3) {
+        display: none
+    }
+    #socialnav {
+        display: block;
         padding: 5px;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-template-rows: 2/4;
-    }
-    .grid-5 {
-        display: grid;
-        border: 1px solid #333;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 8;
-    }
-    .grid-6 {
-        display: grid;
-        border: 1px solid #333;
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 5;
-        grid-row-end: 8;
+        text-align: center;
+        margin: auto;
     }
 }
