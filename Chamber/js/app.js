@@ -21,3 +21,21 @@ function toggleMenu() {
 
 const x = document.querySelector('.hamburger')
 x.onclick = toggleMenu; 
+
+const bunner = document.querySelector('.bunner');
+const day = now.getDay()
+
+if (day === 2){
+	bunner.style.display = "block"
+}
+
+else {
+	bunner.style.display = "none"
+}
+
+// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+// const d = new Date();
+// let day = weekday[d.getDay()];
+
+// console.log(day)
