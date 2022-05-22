@@ -127,6 +127,13 @@
         text-align: center;
         padding: 7px;
     }
+
+    .bunner {
+        display: block;
+        padding: 10px;
+        background: #638475;
+        text-align: center;
+    }
     .logo {
         display: block;
         text-align: center;

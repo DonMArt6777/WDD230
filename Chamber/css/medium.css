@@ -128,6 +128,12 @@
             padding: 20px;
             border-radius: 7px;
         }
+        .bunner {
+            display: block;
+            padding: 10px;
+            background: #638475;
+            text-align: center;
+        }
         footer {
             display: flex;
             background: #05386B;
