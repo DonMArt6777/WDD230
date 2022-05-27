@@ -128,6 +128,16 @@
             padding: 20px;
             border-radius: 7px;
         }
+        .current-temp {
+            display: block;
+            border: none;
+            font-size: 20px;
+        }
+        .wind-speed {
+            display: block;
+            border: none;
+            font-size: 20px;
+        }
         .bunner {
             display: block;
             padding: 10px;
