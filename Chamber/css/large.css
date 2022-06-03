@@ -284,6 +284,9 @@
                text-align: center;
                padding: 5px;
            }
+           .grid-4 p {
+               margin-bottom: 10px;
+           }
            .current-temp {
                display: block;
                border: none;
@@ -291,6 +294,7 @@
            }
            .wind-speed {
                display: inline;
+               margin-bottom: 10px;
                border: none;
                font-size: 20px;
            }
