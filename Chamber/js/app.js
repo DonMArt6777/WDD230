@@ -33,9 +33,36 @@ else {
 	bunner.style.display = "none"
 }
 
-// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+let imagesToload = document.querySelectorAll('img[data-src]');
 
-// const d = new Date();
-// let day = weekday[d.getDay()];
 
-// console.log(day)
+const imgOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px 50px 0px"
+}
+const loadImages = (image) => {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = () => {
+    image.removeAttribute('data-src');
+  }
+}
+
+imagesToload.forEach((img) => {
+  loadImages(img);
+})
+
+if('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if(item.isIntersecting) {
+        loadImages(item.target);
+        observer.unobserve(item.target)
+      }
+    }, imgOptions);
+  });
+}
+else {
+  imagesToload.forEach((img) => {
+    loadImages(img);
+  });
+}
