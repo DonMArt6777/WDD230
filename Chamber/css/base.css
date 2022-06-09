@@ -334,7 +334,7 @@
     }
     .image_container .item1 img {
         margin: auto;
-        margin-left: 150px;
+        /* margin-left: 150px; */
         box-shadow: 10px 10px 5px #aaaaaa;
         width: 300px;
         height: 200px;
@@ -351,11 +351,14 @@
         color: #05386B;
     }
     .image_container .item2 {
-        display: grid;
-        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .image_container .item2 p {
-        grid-column: 2;
+        display: block;
+        text-align: center;
         font-size: small;
         margin: auto;
         padding: 10px;
@@ -376,10 +379,13 @@
         box-shadow: 10px 0 5px #aaaaaa;
     }
     .image_container .item3 {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
     .image_container .item3 p {
-        font-size: small;
+        display: block;
         color: steelblue;
         text-align: center;
         padding: 20px;
@@ -399,11 +405,13 @@
         margin-top: 98px;
     }
     .image_container .item4 {
-        display: grid;
-        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     .image_container .item4 p {
-        grid-column: 2;
         color: #333;
         padding: 10px;
         text-align: center;
@@ -425,24 +433,24 @@
         padding-left: 20px;
     }
     .image_container .item5 {
-        display: grid;
-        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     .image_container .item5 p {
-        grid-column: 1;
+        text-align: center;
         color: #05386B;
         padding: 5px;
         font-size: small;
         line-height: 1.5em;
     }
     .image_container .item5 img {
-        grid-column: 3;
-        grid-row: 2;
         margin-bottom: 20px;
         width: 300px;
         height: 250px;
         border-radius: 12px;
-        margin-right: 10px;
         box-shadow: 10px 10px 5px #aaaaaa;
     }
     .image_container .item5 h2 {
