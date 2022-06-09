@@ -66,6 +66,11 @@
            .navbar ul li a {
                color: #EDF5E1;
            }
+           .nov {
+               display: block;
+               text-align: center;
+               padding-bottom: 7px;
+           }
            .black {
                color: black
            }

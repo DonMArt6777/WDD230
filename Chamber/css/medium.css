@@ -116,6 +116,11 @@
         .current-date {
             color: #EDF5E1;
         }
+        .nov {
+            display: block;
+            text-align: center;
+            padding-bottom: 7px;
+        }
         .navbar ul li a:hover {
             background: rgb(179, 30, 30);
             color: #05386B;

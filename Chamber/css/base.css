@@ -127,6 +127,11 @@
         text-align: center;
         padding: 7px;
     }
+    .nov {
+        display: block;
+        text-align: center;
+        padding-bottom: 7px;
+    }
     .bunner {
         display: block;
         padding: 10px;

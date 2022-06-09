@@ -66,3 +66,22 @@ else {
     loadImages(img);
   });
 }
+
+const todayDisplay = document.querySelector('.today');
+const visitDisplay = document.querySelector('.visits');
+
+let numVisits = Number(window.localStorage.getItem("visits-ls"))
+
+if (numVisits !=0) {
+  visitDisplay.textContent = numVisits;
+}
+
+else {
+  visitDisplay.textContent = 'This is your First visit'
+}
+
+numVisits++;
+
+localStorage.setItem("visits-ls", numVisits)
+
+todayDisplay.textContent = Date.now()
