@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <title>Martin and Sons | Chamber of Commece</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="bunner">Come Join us for the Chamber meet and greet on Wednesday at 7:00 p.m.</span>
+            <button class="hamburger">&#9776;</button>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/icon.webp" alt="my-logo">
+                    <h2><span class="black">Martin</span>&<span class="red">Sons</span></h1>
+                </div>
+                <ul class="primary-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html" class="current-page">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+
+                <div id="socialnav">
+                    <div class="icon-1">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icon-2">
+                        <a href="https://www.linkedIn.com/"><i class="fa fa-linkedin " aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </nav>
+            <span class="current-time"></span>
+            <p class="nov">Number of Visits: <span class="visits"></span></p>
+            <p class="nov">Current Page Timestamp: <span class="today"></span></p>
+        </header>
+        <main>
+            <form method="get" action="thankyou.html">
+                <fieldset class="field1">
+                    <legend>
+                        <span class="red">Join</span class="black"> Us.</legend>
+
+                    <label class="top" >First Name* <input type="text" name="fname" required></label>
+
+                    <label class="top" >Last Name* <input type="text" name="lname" required></label>
+
+                    <label class="top" >Title <input type="text" name="title" pattern="/A-Za-z {7},/"></label>
+
+                    <label class="top" >Phone<input type="text" name="lname" placeholder="55-555-5555"></label>
+
+                    <label class="top" >Email*<input type="email" name="email" placeholder="email@gmail.com"></label>
+
+                    <label class="top">Business Name*<input type="text" required></label>
+
+                    <label class="top" class="black">Description*
+                      <textarea name="message"></textarea>
+                      </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership</legend>
+                    <label class="sbn"><input type="radio" name="membership" value="NP" class="radio__btn"> NP</label>
+
+                    <label class="sbn"><input type="radio" name="membership" value="bronze" class="radio__btn"> Bronze</label>
+
+                    <label class="sbn"><input type="radio" name="membership" value="silver" class="radio__btn" > Silver</label>
+
+                    <label class="sbn">
+                      <input 
+                      type="radio"
+                       name="membership"
+                        value="gold"
+                        class="radio__btn"
+                      > Gold
+                    </label>
+                </fieldset>
+                <button type="submit" class="btn">Submit Form</button>
+            </form>
+        </main>
+        <footer>
+            <div class="main-footer">
+                <div class="logo footer-logo">
+                    <img src="./images/icon.webp" alt="my-logo">
+                    <h2 class="company-name"><span class="black">Martin</span >& <span class="red">sons</span> Chamber of Commerce</h2>
+    </div>
+    <p>&copy; Mart and Sons Chamber | Kampala Uganda | WDD 230 Project | <span class="current-date"></span></p>
+    </div>
+    </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/a7cbf7ef0e.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
