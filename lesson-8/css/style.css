@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@300;400;700&family=Ubuntu&display=swap');
+html {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    box-shadow: 10px 10px 5px #aaaa;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: skyblue;
+}
+
+td {
+    text-align: center;
+}
+
+tbody {
+    font-size: 95%;
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+tbody:nth-child(even) td {
+    color: #fff;
+    background-color: slategrey;
+}
+
+tbody:nth-child(odd) td {
+    color: #fff;
+    font-size: medium;
+    background-color: darkolivegreen;
+}
+
+tbody:nth-child(7) td:nth-child(3) {
+    background: skyblue;
+}
+
+tfoot td {
+    background: skyblue;
+}
+
+caption {
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
