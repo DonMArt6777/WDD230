@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@100;300;400;500;700&family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D6D6B1;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    box-shadow: 0 0 30px #aaaa;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #494331;
+}
+
+h2 {
+    padding: 5px;
+    margin: auto;
+    color: #7B0828;
+}
+
+p {
+    padding: 5px;
+    margin: auto;
+    color: #333;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 1rem;
+}
