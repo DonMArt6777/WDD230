@@ -1,0 +1,57 @@
+{
+    "business": [{
+            "companyName": "COSEKE UGANDA LIMITED",
+            "Address": "37849 Kampala Social Security House 3rd Floor ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imageg.jpg"
+        },
+        {
+            "companyName": "LEPRO UGANDA LIMITED",
+            "Address": "00340 six avenue",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagem.jpg"
+        },
+        {
+            "companyName": "APE UGANDA LIMITED",
+            "Address": "37849 Kampala Social Security House 3rd Floor ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagei.jpg"
+        },
+        {
+            "companyName": "LIGHT UGANDA LIMITED",
+            "Address": "34546 7th street Industrial area ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagek.jpg"
+        },
+        {
+            "companyName": "SHELL UGANDA LIMITED",
+            "Address": "37134 1st street Industrial Area ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagen.jpg"
+        },
+        {
+            "companyName": "KOBIL UGANDA LIMITED",
+            "Address": "378444 Jinja Road 3rd street ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imgeh.jpg"
+        },
+        {
+            "companyName": "TOSHA UGANDA LIMITED",
+            "Address": "371233 Makindye Road ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagel.jpg"
+        },
+        {
+            "companyName": "RWENZORI UGANDA LIMITED",
+            "Address": "37847 Jinja road ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagef.jpg"
+        },
+        {
+            "companyName": "ICE UGANDA LIMITED",
+            "Address": "37849 Kampala Social Security House 4th Floor ",
+            "phoneNumber": "+256-767-7889",
+            "imgaeurl": "./images/imagej.jpg"
+        }
+    ]
+}
