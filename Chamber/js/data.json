@@ -3,63 +3,63 @@
             "companyName": "COSEKE UGANDA LIMITED",
             "Address": "37849 Kampala Social Security House 3rd Floor ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imageg.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imageg.jpg",
             "membership": "None Profitable"
         },
         {
             "companyName": "LEPRO UGANDA LIMITED",
             "Address": "00340 six avenue",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagem.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagem.jpg",
             "membership": "Bronze"
         },
         {
             "companyName": "APE UGANDA LIMITED",
             "Address": "37849 Kampala Social Security House 3rd Floor ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagei.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagei.jpg",
             "membership": "Gold"
         },
         {
             "companyName": "LIGHT UGANDA LIMITED",
             "Address": "34546 7th street Industrial area ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagek.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagek.jpg",
             "membership": "Bronze"
         },
         {
             "companyName": "SHELL UGANDA LIMITED",
             "Address": "37134 1st street Industrial Area ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagen.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagen.jpg",
             "membership": "None Profitable"
         },
         {
             "companyName": "KOBIL UGANDA LIMITED",
             "Address": "378444 Jinja Road 3rd street ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imgeh.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imgeh.jpg",
             "membership": "None Profitable"
         },
         {
             "companyName": "TOSHA UGANDA LIMITED",
             "Address": "371233 Makindye Road ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagel.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagel.jpg",
             "membership": "Gold"
         },
         {
             "companyName": "RWENZORI UGANDA LIMITED",
             "Address": "37847 Jinja road ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagef.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagef.jpg",
             "membership": "None Profitable"
         },
         {
             "companyName": "ICE UGANDA LIMITED",
             "Address": "37849 Kampala Social Security House 4th Floor ",
             "phoneNumber": "+256-767-7889",
-            "imgaeurl": "./images/imagej.jpg",
+            "imgaeurl": "https://github.com/dombreaker36/WDD230/blob/gh-pages/Chamber/images/imagej.jpg",
             "membership": "Bronze"
         }
     ]
