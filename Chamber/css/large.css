@@ -611,4 +611,16 @@
                padding: 10px;
                color: #494331;
            }
+           .join {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+           }
+           .membership {
+               border: 1px solid #05386B;
+               height: 600px;
+               padding: 10px;
+               margin-top: 50px;
+               border-radius: 5px;
+               box-shadow: 0 0 30px #aaa;
+           }
        }

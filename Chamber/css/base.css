@@ -571,4 +571,12 @@
         padding: 10px;
         color: #494331;
     }
+    .membership {
+        border: 1px solid #05386B;
+        height: 400px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px #aaa;
+    }
 }
