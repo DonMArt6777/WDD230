@@ -7,7 +7,7 @@
            body {
                font-family: 'Roboto', sans-serif;
                background: #f4f4f4;
-               color: #EDF5E1;
+               color: #05386B;
            }
            header {
                background: #05386B;
@@ -583,5 +583,32 @@
            }
            .fa {
                font-size: 30px;
+           }
+           section {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               border: 1px solid #aaa;
+           }
+           .cards {
+               display: grid;
+               grid-template-columns: repeat(17, 1fr);
+               gap: 5px;
+               grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+               padding: 1rem;
+           }
+           .cards img {
+               width: 300px;
+               height: 350px;
+               border-radius: 360px;
+               padding: 10px;
+               box-shadow: 0 0 30px #aaaa;
+           }
+           .cards p {
+               display: block;
+               text-align: center;
+               padding: 10px;
+               color: #494331;
            }
        }
