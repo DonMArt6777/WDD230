@@ -135,3 +135,4 @@ const displayBusiness = (business)=>{
   // Append the existing HTML div with the cards class with the section(card)
   card.appendChild(cards);
 }
+
