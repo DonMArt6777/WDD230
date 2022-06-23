@@ -13,6 +13,9 @@
         background: #05386B;
         padding: 5px;
     }
+    h2 {
+        color: #fff;
+    }
     a {
         text-decoration: none;
         list-style: none;
