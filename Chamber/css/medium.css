@@ -10,6 +10,7 @@
         }
         header {
             background: #05386B;
+            color: #fff;
         }
         a {
             text-decoration: none;
@@ -153,6 +154,7 @@
         footer {
             display: flex;
             background: #05386B;
+            color: #fff;
             padding: 20px;
         }
         .main-footer {

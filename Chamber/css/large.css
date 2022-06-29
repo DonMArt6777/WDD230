@@ -11,6 +11,7 @@
            }
            header {
                background: #05386B;
+               color: #fff;
            }
            a {
                text-decoration: none;
@@ -55,6 +56,7 @@
            .navbar {
                display: flex;
                background: #05386B;
+               color: #fff;
                padding: 10px;
            }
            .navbar ul {
@@ -125,6 +127,7 @@
                display: block;
                text-align: center;
                padding-bottom: 7px;
+               color: #fff;
            }
            .bunner {
                display: block;
@@ -149,6 +152,7 @@
            footer {
                display: flex;
                background: #05386B;
+               color: #fff;
                padding: 20px;
            }
            .main-footer {
