@@ -576,6 +576,9 @@
         padding: 10px;
         color: #494331;
     }
+    .cards h2 {
+        color: #05386B;
+    }
     .membership {
         border: 1px solid #05386B;
         height: 400px;

@@ -90,6 +90,7 @@ const requestjson = 'https://dombreaker36.github.io/WDD230/Chamber/js/data.json'
 
 const card = document.querySelector('.cards')
 
+
 fetch(requestjson)
 .then((res)=>{
   return res.json()
@@ -99,7 +100,9 @@ fetch(requestjson)
   const business = jsonObject["business"]
 
   business.forEach(displayBusiness)
-})
+}
+
+)
 
 const displayBusiness = (business)=>{
   // Create elements to add to the document
