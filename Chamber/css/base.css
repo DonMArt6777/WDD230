@@ -271,29 +271,37 @@
     }
     .grid-3 {
         display: grid;
-        background: #90E39A;
+        background: #62929E;
+        gap: 5px;
         padding: 10px;
         grid-column: 1/5;
         grid-row: 100/140;
+        margin-top: 10px;
     }
     .grid-3>div:nth-child(1) {
-        box-shadow: 0px 0px 10px 5px #aaaaaa;
         background: #f4f4f4;
         padding: 5px;
         grid-auto-rows: 200px;
         grid-row: 1/2;
     }
+    .grid-3 img {
+        margin-left: 250px;
+        width: 100px;
+        height: 98px;
+        border-radius: 5px;
+        padding-top: 5px;
+        box-shadow: 0 0 0 5px #aaa;
+    }
     .spotlight-1 h2 {
         color: #05386B;
-        text-shadow: 10px 10px 5px #333;
+        margin-bottom: 10px;
         text-align: center;
     }
     .spotlight-1 p {
         text-align: center;
-        margin-top: 10px;
+        margin: 10px 0;
     }
     .grid-3>div:nth-child(2) {
-        box-shadow: 0px 0px 10px 5px #aaaaaa;
         background: #f4f4f4;
         grid-column: 1;
         grid-row: 2/3;
